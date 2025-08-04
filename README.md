@@ -5,7 +5,7 @@
 ## Instructions to create your CS3_1st Qtr Portfolio
 1. Make a copy of this repository to your computer and your github account.  This repository will be used to contain all your graded and non-graded exercises to create your CS3 first quarter portfolio.  
 2. Open the VSCode application from your computer. Seach for the application.  If you do not have a VSCode inside your computer.  Please install it first.
-3. Press **Ctrl-Shift-G** to open source control and click on Clone Repository.  Copy this link : https://github.com/alinemendoza/CS3_1stQtrPortfolio.git
+3. Press **Ctrl-Shift-G** to open source control and click on Clone Repository.  Copy this link : https://github.com/Ethel1wastaken/CS3_1stQtrPortfolio.git
 4. Create a folder on your computer and name it as **CS3_1stQtrPortfolio_SectionLN** then select it.
 5. Follow and answer the prompts given by VSCode, then click **Yes, I trust the authors**
 6. At this point, you should see a set of files and folder inside the VSCode Editor.  
