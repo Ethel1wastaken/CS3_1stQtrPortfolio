@@ -19,3 +19,6 @@ if(sure) {
         console.log(`You will need ${totalRequired} ${favSnack}s to last you until the ripe old age of ${maxAge}.`);
     }
 }
+else {
+    window.alert("Please run again.");
+}
