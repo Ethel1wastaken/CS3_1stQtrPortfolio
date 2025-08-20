@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 2nd Graded Exercise submitted by Elijah Gamis of 9-Magnesium</h2>
+    <label> Meal Price: 
+            <input id="mp" />
+        </label></br/>
+
+        <label> Tip: 
+            <input id="tip" />
+        </label></br/>
+
+        <label> Service Charge (%): 
+            <input id="sc" />
+        </label></br/>
+
+        <button onclick="totalMeal()"> Accept Input</button>
+
+        <p> Total Meal:
+            <span id="totalCost"></span>
+        </p>
+
+    <script>
+        function totalMeal() {
+            let mp, tip, sc;
+            mp = Number(document.getElementById("mp").value);
+            tip = Number(document.getElementById("tip").value);
+            sc = Number(document.getElementById("sc").value);
+
+            let totalCost = mp+tip+(sc/100*mp);
+            document.getElementById("totalCost").innerText = totalCost.toFixed(2);
+        }
+    </script>
+
+    <footer>
+        <p>GeeksforGeeks. (2024, January 9). <i>Javascript number toFixed() method. GeeksforGeeks.</i> https://www.geeksforgeeks.org/javascript/javascript-number-tofixed-method/ </p>
+        <p>GeeksforGeeks. (2025, July 11). <i>HTML footer tag. GeeksforGeeks.</i> https://www.geeksforgeeks.org/html/html5-footer-tag/ </p>
+        <p>Sanchithasr. (2024, May 15). 7 ways to convert a string to number in JavaScript. DEV Community. https://dev.to/sanchithasr/7-ways-to-convert-a-string-to-number-in-javascript-4l </p>
+    </footer>
+
+</body>
+</html>
