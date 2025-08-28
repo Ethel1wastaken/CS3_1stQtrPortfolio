@@ -30,7 +30,10 @@
         function checkIt() {
             let guess = Number(document.getElementById("guess").value);
             let result;
-            if(guess == dNumber) {
+            if((guess < 1) || (guess > 100)){
+                result = "Please enter a number from 1 to 100.";
+            }
+            else if(guess == dNumber) {
                 result = `You are correct! You guessed the number in ${++counter} tries.`;
                 document.getElementById("number").innerText = dNumber;
             }
